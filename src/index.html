@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gradie Sign Up Page</title>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			body {
+				font-family: 'Roboto';
+				background-image: url("../Assets/Background.png");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex place-content-center md:h-screen">
+			<div class="self-center md:flex md:flex-col lg:flex-row place-content-center">
+				<div
+					class="md:self-center lg:self-stretch md:w-2/4 lg:w-1/4 bg-[#013243] lg:rounded-tl-lg lg:rounded-bl-lg"
+				>
+					<div class="relative">
+						<img class="" src="../Assets/iPhone Mockup.png" alt="" />
+						<div class="absolute top-0 left-0 p-12 text-center w-full">
+							<p class="text-4xl font-bold text-white mb-2">Gradie</p>
+							<p class="text-[#82bbcf]">Beautiful gradients in seconds.</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="md:self-center lg:self-stretch md:w-2/4 lg:w-1/4 bg-white lg:rounded-tr-lg lg:rounded-br-lg border py-12 px-20"
+				>
+					<p class="text-4xl font-bold w-full mb-2">Login</p>
+					<form class="w-full">
+						<div class="my-6">
+							<label class="block font-bold mb-2">Email</label>
+							<input
+								class="w-full border border-slate-300 rounded-md p-4"
+								type="email"
+								placeholder="john@example.com"
+							/>
+						</div>
+						<div class="my-6">
+							<label class="block font-bold mb-2">Password</label>
+							<input
+								class="w-full border border-slate-300 rounded-md p-4"
+								type="password"
+								placeholder="At least 8 characters"
+							/>
+						</div>
+						<div class="mb-6 flex items-start">
+							<input type="checkbox" class="block mt-1 mx-2" />
+							<label class="block mx-2">
+								By creating an account, you agree the
+								<a href="#" class="text-[#013243] font-semibold">Terms & Conditions</a>.
+							</label>
+						</div>
+						<button class="bg-[#013243] text-white font-bold w-full rounded-lg p-4" type="button">
+							Create an Account
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
